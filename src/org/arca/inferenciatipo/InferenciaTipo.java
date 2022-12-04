@@ -7,8 +7,8 @@ public class InferenciaTipo {
 	public static void main(String[] args) {
 
 		var listaFruta = List.of("Banana", "Pera", "Uva", "Maçã", "Salada Mista");
-		for(var fruta: listaFruta) {
-			System.out.println(fruta);
+		for(var i=0; listaFruta.size()>i;i++) {
+			System.out.println(listaFruta.get(i));
 		}
 		
 	}
