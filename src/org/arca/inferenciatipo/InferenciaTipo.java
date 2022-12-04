@@ -11,5 +11,8 @@ public class InferenciaTipo {
 			System.out.println(listaFruta.get(i));
 		}
 		
+		var e = new ArrayIndexOutOfBoundsException();
+		
+		
 	}
 }
